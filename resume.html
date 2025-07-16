@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <header id="contactInformation">
+        <h1>Akash Shah</h1>
+        <p>
+            <a href="mailto:akashrhshahfake@email.com">akashrshahfake@gmail.com</a>
+            | (012) - 345 - 6789
+            | Morristown, NJ
+        </p>
+    </header>
+
+    <hr>
+    <main>
+
+        <section id="Profile">
+            <h2>Profile</h2>
+                <nav>
+                    <ul>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="career-goals.html">Career Goals</a></li>
+                        <li><a href="cover-letter.html">Cover Letter</a></li>
+                    </ul>
+                </nav>
+            <hr>
+
+        </section>
+
+        <section id="Skills">
+            <h2>Skills</h2>
+            <p>
+                <strong>CAD:</strong> SolidWorks, AutoCAD <br>
+                <strong>Analysis:</strong> GD&T, FEA <br>
+                <strong>Technical:</strong> MatLab, Python, Arduino, Microsoft 365, HTML5, JavaScript <br>
+                <strong>Manufacturing:</strong> 3D Printing, Injection Molding, Investment Casting
+            </p>
+            <hr>
+        </section>
+
+        <section id="Experience">
+            <h2>Experience</h2>
+                <article>
+                    <h3>
+                        Mechanical Engineer, <span>Component Hardware Group - <em>Matawan, NJ</em></span>
+                    </h3>
+                    <ul>
+                        <li>Led a brand redesign project for a key customer by developing 4 universal, aesthetic knob designs using glass-filled
+                            nylon and a modular adapter system to fit multiple valve types, reducing SKU count; created a patent-pending snap-fit retention feature and served as primary liaison through weekly customer meetings.</li>
+                        <li>Spearheaded supplier sourcing transition from China to India to mitigate tariff costs, by negotiating with
+                            manufactures, completing small redesigns on request to reduce tooling costs, and generating satisfactory samples,
+                            resulting in $2 million worth of production successfully transitioned</li>
+                        <li>Facilitated the company's growth into new product categories by collaborating with sales to identify opportunities,
+                            managed iterative communication between manufacturers and customers, and refining product designs to meet
+                            customer needs, resulting in on track progress for 20% YoY growth</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>
+                        Design Engineer, <span>Wardwell Braiding Company - <em>Central Falls, RI</em></span>
+                    </h3>
+                    <ul>
+                        <li>Developed upgraded sound enclosures to fulfil customer requirements to reduce decibel levels under 110 dB by
+                            researching sound dampening techniques, designing and testing multiple prototypes, and created technical drawings
+                            and documentation, resulting in a 34% reduction in dB level and new standard for future machine enclosures</li>
+                        <li>Engineered a mounting harness and support brackets to combine two machines into a single footprint, reducing
+                            overall space by 16% through load analysis and structural optimization.</li>
+                        <li>Reduced scrap during manufacturing of machine frames and lowered costs by 12% by creating weldment profiles and
+                            detailed technical drawings to simplify its fabrication</li>
+                        <li>Installed upgraded enclosures at customer site by disassembling 3 machines and completing reassembly with new
+                            enclosures along with necessary repairs</li>
+                        <li>Initiated a systematic process to catalogue and generate 3D models of 211 parts of an absorbed company by
+                            organizing their parts by assembly group and using measuring tools to reverse engineer them into SolidWorks,
+                            resulting in organized database of full 3D parts and sub-assemblies along with their associated technical drawings</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>
+                        Team Lead,  <span>Target - <em>Smithfield, RI</em></span>
+                    </h3>
+                    <ul>
+                        <li>Optimized backroom unload during truck deliveries by implementing a modular setup, reducing unload times by 25%</li>
+                        <li>Enhanced shelf space allocation during the pandemic, increasing sales by 12%, and cutting excess inventory by 45%</li>
+                        <li>Accelerated quarterly department product shifts by 20% through strategic inventory prioritization and load balancing.</li>
+                    </ul>
+                    <h3>
+                        Process Engineering Intern, <span>Tiffany & Co - <em>Cumberland, RI</em></span>
+                    </h3>
+                    <ul>
+                        <li>Led a critical trademarking project, improving quality assurance practices and eliminating defects to reduce
+                            manufacturing scrap.</li>
+                        <li>Conducted experiments on polishing processes, testing techniques on 25 pieces, and presenting actionable findings
+                            to leadership.</li>
+                        <li>Boosted daily efficiency by creating a comprehensive SoP for JDE software, optimizing work order creation.</li>
+                    </ul>
+                </article>
+            <hr>
+        </section>
+
+        <section id="Education">
+            <h2>Education & Certifications</h2>
+            <table>
+                <caption>Degrees & Certifications</caption>
+
+                <tr>
+                    <th>Certification</th>
+                    <th>Institution</th>
+                    <th>Status</th>
+                    <th>Year</th>
+                </tr>
+
+                <tr>
+                    <th>B.S Mechanical Engineering</th>
+                    <th>URI</th>
+                    <th>Complete</th>
+                    <th>2022</th>
+                </tr>
+
+                <tr>
+                    <th>B.S/M.S</th>
+                    <th>WGU</th>
+                    <th>Pending</th>
+                    <th>Q2 2026</th>
+                </tr>
+
+                <tr>
+                    <th>Professional License</th>
+                    <th>SolidWorks</th>
+                    <th>Pending</th>
+                    <th>Q4 2025</th>
+                </tr>
+            </table>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <div id="currentDate"></div>
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById("currentDate");
+        const today = new Date().toLocaleDateString();
+        dateElement.textContent = "Today's Date: " + today;
+
+        console.log("Resume loaded successfully");
+    </script>
+</body>
+</html>
