@@ -61,7 +61,7 @@
         <section id="form">
             <h2>Contact Information</h2>
 
-            <form action="https://wp.zybooks.com/form-viewer.php"></form>
+            <form action="https://wp.zybooks.com/form-viewer.php">
                 <div>
                     <label for="firstName">First Name</label>
                     <input type="text" name="firstName" id="firstName">
@@ -82,12 +82,12 @@
                     <br>
                     <br>
                     <p>Best contact time</p>
+                    <input type="radio" name="contactTime" id="am" value="am">
                     <label for="am">A.M</label>
-                    <input type="radio" name="am" id="am">
+                    <input type="radio" name="contactTime" id="pm" value="pm">
                     <label for="pm">P.M</label>
-                    <input type="radio" name="pm" id="pm">
-                    <label for="anytime">Anytime</label>
-                    <input type="radio" name="anytime" id="anytime">
+                    <input type="radio" name="contactTime" id="anytime" value="anytime">
+                    <label for="anytime">Anytime</label> <br>
                     <label for="contactMethod">Preferred contact method</label>
                     <select name="contactMethod" id="contactMethod">
                         <option value="phone">Phone</option>
@@ -95,6 +95,7 @@
                         <option value="text">Text</option>
                     </select>
                 </div>
+            </form>
         </section>
 
         <hr>
